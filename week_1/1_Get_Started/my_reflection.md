@@ -6,4 +6,12 @@
 * Why do developers use version control (git)? Does that make sense to you? Why or why not?
 * What doesn't make sense? What does?
 
-<!-- Add your reflection here. Remove the comment markers -->
+# Biggest problem I had was finding theh right way to download the software.  When I tried to use my terminal, I would recieve error messages.
+
+#Git is a tool that allows people to follow the progress/changes in code, while GitHub is a host site that stores code that people can access and edit projects remotely.
+
+#Version Control keeps track changes to a collaborated file and shows who made the changes to that file. GitHub keeps a timelog of all changes, and uses a distributed repository that allows for multiple people to access a file at the same time, because it sends everyone a complete copy of the repository.
+
+#It makes sense to me that people use Git because it is a repository that minimizes collaboration issues.  As a distributed repository contol system, you have a complete history of all changes and who made them, as well giving each user a complete copy of the repo. (which allows for everyone to keep working even if the server with the original shut down)
+
+#The only real problem I had was trying to create a file within a repository.  My terminal would not allow me to do so, but I found on the internet that it was because I was using 'bash' and I needed to change my syntax.  Once I figured out how to create files I was able to use my terminal to stage and commit changes.
