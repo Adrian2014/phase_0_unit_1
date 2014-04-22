@@ -6,7 +6,7 @@
 * Why do developers use version control (git)? Does that make sense to you? Why or why not?
 * What doesn't make sense? What does?
 
-# Biggest problem I had was finding theh right way to download the software.  When I tried to use my terminal, I would recieve error messages.
+# Biggest problem I had was finding the right way to download the software.  When I tried to use my terminal, I would recieve error messages.
 
 #Git is a tool that allows people to follow the progress/changes in code, while GitHub is a host site that stores code that people can access and edit projects remotely.
 
