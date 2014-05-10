@@ -1,19 +1,21 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself] on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+//  Need to set variable secertNumber to number - value equal to 7
+//  Need to set variable password to string - just open the door
+//  Need to set var allowedIn to boolean - false
+//  Need to set var members to array - John, Jim, Katie, Mary
 
 
 // __________________________________________
 // Write your code below.
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John", "Jim", "Katie", "Mary"]
 
 
 
