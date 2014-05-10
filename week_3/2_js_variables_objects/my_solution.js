@@ -30,10 +30,11 @@ var members = ["John", "Jim", "Katie", "Mary"]
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
+//  
+//  I liked this activity.  At the begining I was dependent on reading the error messages 
+//  Toward the end I was able to just look a the script and understand what the tests were looking for, 
+//  and I was able to complete my code without testing each line.  This helped me learn to 
+//  'read' javascript easier.
 // 
 // 
 
