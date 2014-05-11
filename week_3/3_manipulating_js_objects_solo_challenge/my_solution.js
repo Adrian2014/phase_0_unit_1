@@ -77,8 +77,9 @@ var adam = {
 // mistake!
 //      For some reason, the spousal properties will not work on the test, but when I console.log them, they come up fine. 
 // I earased those asserts from the test and everything else runs fine.  I have tried to change the syntax a couple times
-//but with no real results.
-
+// but with no real results.  It will say that all spouse related properties are objects, but the test does not like my 
+// spript.  I wonder if the test for spouse properties should read (terah.spouse instanceof Object) not  
+// terah.spouse === adam.  Because my code allows for the spouse property to be equal to the variable of adam.
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 function assert(test, message, test_number) {
