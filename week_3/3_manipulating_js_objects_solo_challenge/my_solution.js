@@ -47,6 +47,20 @@ var terah = {
 // Write your code below.
 
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  spouse: adam,
+  children: {carson: {name:"Carson"}, carter:{name:"Carter"}, colton:{name: "Colton"}}
+};
+var adam = {
+  name: "Adam",
+  spouse: terah,
+  children: terah.children,
+};
 
 
 
