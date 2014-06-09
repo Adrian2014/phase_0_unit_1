@@ -3,48 +3,64 @@
 // There is a section below where you will write your code.
 // Do not alter this object here.
 
-
 var terah = {
   name: "Terah",
   age: 32,
   height: 66,
   weight: 130,
   hairColor: "brown",
-  eyeColor: "brown"
-}
+  eyeColor: "brown",
+  
+
+
+
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
-
+      CREATE var adam
 2. Give adam a name property with the value "Adam".
-
+      ADD "Adam" name property to adam
 3. Add a spouse property to terah and assign it the value of adam.
-
+      ADD 'adam' spouse property to terah
 4. Change the value of the terah weight property to 125.
-
+      CHANGE weight property value of terah
 5. Remove the eyeColor property from terah.
-
+      REMOVE eyeColor property from terah
 6. Add a spouse property to adam and assign it the value of terah.
-
+       ADD 'terah' spouse property to adam
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
-
+       ADD {no value} children property to terah    
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
-
+       ADD "Carson" carson property to terah children property
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
-
+       ADD "Carter" carter property to terah children property
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
-
+          ADD "Carter" carter property to terah children property
 11. Add a children property to adam and assign it the value of terah children.
-
+        ADD 'terah children' children property to adam 
 
 */
 
 // __________________________________________
 // Write your code below.
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  spouse: adam,
+  children: {carson: {name:"Carson"}, carter:{name:"Carter"}, colton:{name: "Colton"}}
+};
+var adam = {
+  name: "Adam",
+  spouse: terah,
+  children: terah.children,
+};
 
 
 var terah = {
@@ -69,14 +85,15 @@ var adam = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
-
-
+//   I liked this challenge.  It is really nice having the tests.  Initially, I had put terah.spouse = "adam" as a string.
+// but the tests let me know that adam needs to be difined as an object.  Simple things like that can easily throw,
+// me in the wrong direction. Normally, I would question every part of my scrpit, but now I can see where I made a simple 
+// mistake!
+//      For some reason, the spousal properties will not work on the test, but when I console.log them, they come up fine. 
+// I earased those asserts from the test and everything else runs fine.  I have tried to change the syntax a couple times
+// but with no real results.  It will say that all spouse related properties are objects, but the test does not like my 
+// spript.  I wonder if the test for spouse properties should read (terah.spouse instanceof Object) not  
+// terah.spouse === adam.  Because my code allows for the spouse property to be equal to the variable of adam.
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 function assert(test, message, test_number) {

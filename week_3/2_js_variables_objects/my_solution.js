@@ -1,13 +1,13 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself] on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+//  Need to set variable secertNumber to number - value equal to 7
+//  Need to set variable password to string - just open the door
+//  Need to set var allowedIn to boolean - false
+//  Need to set var members to array - John, Jim, Katie, Mary
 
 
 // __________________________________________
@@ -31,10 +31,11 @@ var members = ["John", "Jim", "Katie", "Mary"]
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
+//  
+//  I liked this activity.  At the begining I was dependent on reading the error messages 
+//  Toward the end I was able to just look a the script and understand what the tests were looking for, 
+//  and I was able to complete my code without testing each line.  This helped me learn to 
+//  'read' javascript easier.
 // 
 // 
 

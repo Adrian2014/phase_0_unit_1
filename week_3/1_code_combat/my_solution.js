@@ -3,6 +3,12 @@
 // For each mission, write the title as a comment. (Shown here). Also include pseudocode as a comment. 
 // Note: to make commenting easier, you can highlight the section you want to comment and hold 
 // command + / This will comment the line. 
+
+
+//  ----  ; - end of statement operator 
+//  ---  () - allow you to execute the function
+
+
  
        // Rescue Mission
 // this.moveDown();
@@ -99,3 +105,4 @@
  
 // Reflection:
 // Write your reflection here.
+// This was a very straight forward challenge.  I enjoyed it, and was able to complete it with ease, but I'm not sure how much I really learned from it.
